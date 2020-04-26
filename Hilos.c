@@ -24,7 +24,7 @@ int main (int argc, char *argv[]){
     hijos=aux-'0';
 
     for(int i=0;i<hijos;i++){
-        pidName=fork(); esta es una prueba
+        pidName=fork(); 
         if(pidName>0)
             continue;
         else if(pidName==0){
