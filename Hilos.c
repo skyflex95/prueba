@@ -9,7 +9,7 @@ int proceso(void){
     int Vtime;
     srand(getpid());
     Vtime=(rand()%30);
-   // printf("time: %d\n",Vtime); //imprime el tiempo
+   // printf("time: %d\n",Vtime); //imprime el valor del tiempo
     sleep(Vtime);
     return Vtime;
 }
